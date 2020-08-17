@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "Seg": {
+          "type": "string"
+        },
+        "Ref": {
+          "type": "number", "multipleOf": 1.0
+        },
+        "Description": {
+          "type": "string"
+        },
+        "M": {
+          "type": "string"
+        },
+        "Value": {
+          "type": "string"
+        },
+        "Mapped To": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Seg",
+        "Ref",
+        "Description",
+        "M",
+        "Value",
+        "Mapped To"
+      ]
+    }
+  ]
+}
